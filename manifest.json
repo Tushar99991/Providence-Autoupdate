@@ -13,7 +13,7 @@
             "group": "Replace & Peacock Addon",
             "name": "Providence Suit (Replacer)",
             "type": "select",
-            "tooltip": "Replaces your Signature Suit & Gloves with the Default Providence Herald's Suit.",
+            "tooltip": "Replaces your Signature Suit and Gloves with the Default Providence Herald's Suit.",
             "enabledByDefault": true,
             "contentFolders": [
                 "content"
