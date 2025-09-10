@@ -1,0 +1,154 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe317c94c58111",
+				{
+					"parent": "cafe15b77e05afde",
+					"name": "CHARSET_Agent47_Herald_Suit_Red",
+					"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_herald_suit_red.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_herald_suit_red.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec9106cd3780b",
+				{
+					"parent": "cafe15b77e05afde",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe15b77e05afde"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe15b77e05afde",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Herald_Suit_Red_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_LEATHER"
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe317c94c58111"]
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "2cd70410-952d-4a32-8837-0040c3b84967"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "CHAR_Global_Hero_Herald_Suit_Red_M"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Herald Suit Red"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_47Suit"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/2cd70410-952d-4a32-8837-0040c3b84967_hitman6_hero_herald_suit_red_m_name_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/2cd70410-952d-4a32-8837-0040c3b84967_hitman6_hero_herald_suit_red_m_description_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec414993fd7f3",
+				{
+					"parent": "cafe15b77e05afde",
+					"name": "Prof_Hero_SignatureSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe15b77e05afde"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7cb20e41b10c",
+				{
+					"parent": "cafe15b77e05afde",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe15b77e05afde"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0f570a8f317c",
+				{
+					"parent": "cafe15b77e05afde",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe15b77e05afde"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
