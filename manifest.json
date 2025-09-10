@@ -1,240 +1,199 @@
 {
-    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-    "id": "Edgar.Heralds",
-    "name": "Providence 47",
-    "description": "A Providence Herald's Suit for 47",
-    "authors": [
-        "Edgar"
-    ],
-    "frameworkVersion": "2.33.27",
-    "version": "1.0.1",
-    "options": [
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Providence Suit (Replacer)",
-            "type": "select",
-            "tooltip": "Replaces your Signature Suit and Gloves with the Default Providence Herald's Suit.",
-            "enabledByDefault": true,
-            "contentFolders": [
-                "content"
-            ],
-            "blobsFolders": [
-                "blobs"
-            ],
-            "localisationOverrides": {
-                "00985A1100E5EDDC": {
-                    "english": {
-                        "88651790": "Providence Suit",
-                        "4152046224": "A Providence Suit for 47 from Mendoza's Mission."
-                    }
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Golden Providence Suit (Replacer)",
-            "type": "select",
-            "tooltip": "Replaces your Signature Suit & Gloves with the Golden Variant of Providence Herald's Suit.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_gold"
-            ],
-            "blobsFolders": [
-                "blobs_gold"
-            ],
-            "localisationOverrides": {
-                "00985A1100E5EDDC": {
-                    "english": {
-                        "88651790": "Golden Providence Suit",
-                        "4152046224": "A Golden Providence Suit for 47."
-                    }
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Purple Providence Suit (Replacer)",
-            "type": "select",
-            "tooltip": "Replaces your Signature Suit & Gloves with the Purple Variant of Providence Herald's Suit.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_purple"
-            ],
-            "blobsFolders": [
-                "blobs_purple"
-            ],
-            "localisationOverrides": {
-                "00985A1100E5EDDC": {
-                    "english": {
-                        "88651790": "Purple Providence Suit",
-                        "4152046224": "A Purple Providence Suit for 47."
-                    }
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Red Providence Suit (Replacer)",
-            "type": "select",
-            "tooltip": "Replaces your Signature Suit & Gloves with the Red Variant of Providence Herald's Suit.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_red"
-            ],
-            "blobsFolders": [
-                "blobs_red"
-            ],
-            "localisationOverrides": {
-                "00985A1100E5EDDC": {
-                    "english": {
-                        "88651790": "Red Providence Suit",
-                        "4152046224": "A Red Providence Suit for 47."
-                    }
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Silver Providence Suit (Replacer)",
-            "type": "select",
-            "tooltip": "Replaces your Signature Suit & Gloves with the Silver Variant of Providence Herald's Suit.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_silver"
-            ],
-            "blobsFolders": [
-                "blobs_silver"
-            ],
-            "localisationOverrides": {
-                "00985A1100E5EDDC": {
-                    "english": {
-                        "88651790": "Silver Providence Suit",
-                        "4152046224": "A Silver Providence Suit for 47."
-                    }
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Peacock Addon (Default Suit)",
-            "type": "checkbox",
-            "tooltip": "Install the default providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_peacock"
-            ],
-            "blobsFolders": [
-                "blobs_peacock"
-            ],
-            "localisedLines": {
-                "00C90EA117AE7398": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_NAME",
-                "0036294E967D0B24": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_DESC"
-            },
-            "localisation": {
-                "english": {
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_NAME": "Providence Suit",
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_DESC": "A Providence Suit for 47 from Mendoza's Mission."
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Peacock Addon (Golden Suit)",
-            "type": "checkbox",
-            "tooltip": "Install the golden variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_gold_peacock"
-            ],
-            "blobsFolders": [
-                "blobs_gold_peacock"
-            ],
-            "localisedLines": {
-                "00BB856D80446046": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_NAME",
-                "00A6715D4F693541": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_DESC"
-            },
-            "localisation": {
-                "english": {
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_NAME": "Golden Providence Suit",
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_DESC": "A Golden Providence Suit for 47 from Mendoza's Mission."
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Peacock Addon (Purple Suit)",
-            "type": "checkbox",
-            "tooltip": "Install the purple variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_purple_peacock"
-            ],
-            "blobsFolders": [
-                "blobs_purple_peacock"
-            ],
-            "localisedLines": {
-                "00DB076852E2E3B2": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_NAME",
-                "0090438F5B3B89EA": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_DESC"
-            },
-            "localisation": {
-                "english": {
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_NAME": "Purple Providence Suit",
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_DESC": "A Purple Providence Suit for 47 from Mendoza's Mission."
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Peacock Addon (Red Suit)",
-            "type": "checkbox",
-            "tooltip": "Install the red variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_red_peacock"
-            ],
-            "blobsFolders": [
-                "blobs_red_peacock"
-            ],
-            "localisedLines": {
-                "00D3D51B1FD519EE": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_NAME",
-                "0096819594786927": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_DESC"
-            },
-            "localisation": {
-                "english": {
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_NAME": "Red Providence Suit",
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_DESC": "A Red Providence Suit for 47 from Mendoza's Mission."
-                }
-            }
-        },
-        {
-            "group": "Replace & Peacock Addon",
-            "name": "Peacock Addon (Silver Suit)",
-            "type": "checkbox",
-            "tooltip": "Install the silver variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
-            "enabledByDefault": false,
-            "contentFolders": [
-                "content_silver_peacock"
-            ],
-            "blobsFolders": [
-                "blobs_silver_peacock"
-            ],
-            "localisedLines": {
-                "00826B2C7C14A93B": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_NAME",
-                "002B03E3A8F34EFC": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_DESC"
-            },
-            "localisation": {
-                "english": {
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_NAME": "Silver Providence Suit",
-                    "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_DESC": "A Silver Providence Suit for 47 from Mendoza's Mission."
-                }
-            }
-        }
-    ],
-    "dependencies": [
-        {
-            "runtimeID": "00E506EBB0C18003",
-            "toChunk": 0,
-            "portFromChunk1": true
-        }
-    ]
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "Edgar.Heralds",
+	"name": "Providence 47",
+	"description": "A Providence Herald's Suit for 47",
+	"authors": ["Edgar"],
+	"frameworkVersion": "2.33.27",
+	"version": "1.1.0",
+	"options": [
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Providence Suit (Replacer)",
+			"type": "select",
+			"tooltip": "Replaces your Signature Suit and Gloves with the Default Providence Herald's Suit.",
+			"enabledByDefault": true,
+			"contentFolders": ["content"],
+			"blobsFolders": ["blobs"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"88651790": "Providence Suit",
+						"4152046224": "A Providence Suit for 47 from Mendoza's Mission."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Golden Providence Suit (Replacer)",
+			"type": "select",
+			"tooltip": "Replaces your Signature Suit & Gloves with the Golden Variant of Providence Herald's Suit.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_gold"],
+			"blobsFolders": ["blobs_gold"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"88651790": "Golden Providence Suit",
+						"4152046224": "A Golden Providence Suit for 47."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Purple Providence Suit (Replacer)",
+			"type": "select",
+			"tooltip": "Replaces your Signature Suit & Gloves with the Purple Variant of Providence Herald's Suit.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_purple"],
+			"blobsFolders": ["blobs_purple"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"88651790": "Purple Providence Suit",
+						"4152046224": "A Purple Providence Suit for 47."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Red Providence Suit (Replacer)",
+			"type": "select",
+			"tooltip": "Replaces your Signature Suit & Gloves with the Red Variant of Providence Herald's Suit.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_red"],
+			"blobsFolders": ["blobs_red"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"88651790": "Red Providence Suit",
+						"4152046224": "A Red Providence Suit for 47."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Silver Providence Suit (Replacer)",
+			"type": "select",
+			"tooltip": "Replaces your Signature Suit & Gloves with the Silver Variant of Providence Herald's Suit.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_silver"],
+			"blobsFolders": ["blobs_silver"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"88651790": "Silver Providence Suit",
+						"4152046224": "A Silver Providence Suit for 47."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Peacock Addon (Default Suit)",
+			"type": "checkbox",
+			"tooltip": "Install the default providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_peacock"],
+			"blobsFolders": ["blobs_peacock"],
+			"localisedLines": {
+				"00C90EA117AE7398": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_NAME",
+				"0036294E967D0B24": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_NAME": "Providence Suit",
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_DESC": "A Providence Suit for 47 from Mendoza's Mission."
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Peacock Addon (Golden Suit)",
+			"type": "checkbox",
+			"tooltip": "Install the golden variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_gold_peacock"],
+			"blobsFolders": ["blobs_gold_peacock"],
+			"localisedLines": {
+				"00BB856D80446046": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_NAME",
+				"00A6715D4F693541": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_NAME": "Golden Providence Suit",
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_GOLD_DESC": "A Golden Providence Suit for 47 from Mendoza's Mission."
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Peacock Addon (Purple Suit)",
+			"type": "checkbox",
+			"tooltip": "Install the purple variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_purple_peacock"],
+			"blobsFolders": ["blobs_purple_peacock"],
+			"localisedLines": {
+				"00DB076852E2E3B2": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_NAME",
+				"0090438F5B3B89EA": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_NAME": "Purple Providence Suit",
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_PURPLE_DESC": "A Purple Providence Suit for 47 from Mendoza's Mission."
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Peacock Addon (Red Suit)",
+			"type": "checkbox",
+			"tooltip": "Install the red variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_red_peacock"],
+			"blobsFolders": ["blobs_red_peacock"],
+			"localisedLines": {
+				"00D3D51B1FD519EE": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_NAME",
+				"0096819594786927": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_NAME": "Red Providence Suit",
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_RED_DESC": "A Red Providence Suit for 47 from Mendoza's Mission."
+				}
+			}
+		},
+		{
+			"group": "Replace & Peacock Addon",
+			"name": "Peacock Addon (Silver Suit)",
+			"type": "checkbox",
+			"tooltip": "Install the silver variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
+			"enabledByDefault": false,
+			"contentFolders": ["content_silver_peacock"],
+			"blobsFolders": ["blobs_silver_peacock"],
+			"localisedLines": {
+				"00826B2C7C14A93B": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_NAME",
+				"002B03E3A8F34EFC": "UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_NAME": "Silver Providence Suit",
+					"UI_TOKEN_OUTFIT_HERO_HERALD_SUIT_SILVO_DESC": "A Silver Providence Suit for 47 from Mendoza's Mission."
+				}
+			}
+		}
+	],
+	"dependencies": [
+		{
+			"runtimeID": "00E506EBB0C18003",
+			"toChunk": 0,
+			"portFromChunk1": true
+		}
+	],
+	"updateCheck": "https://github.com/Tushar99991/Providence-Autoupdate/releases/latest/download/updates.json"
 }
