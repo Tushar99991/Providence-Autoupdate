@@ -5,7 +5,7 @@
 	"description": "A Providence Herald's Suit for 47",
 	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.31",
-	"version": "1.1.2",
+	"version": "1.1.4",
 	"options": [
 		{
 			"group": "Replace & Peacock Addon",
