@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"id": "Providence-Autoupdate",
+	"id": "Providence-Autoupdate-main",
 	"name": "Providence 47",
 	"description": "A Providence Herald's Suit for 47",
 	"authors": ["Edgar"],
