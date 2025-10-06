@@ -1,1 +1,13 @@
-{"9485ba17-4f41-4ce9-a6ee-78ed21359875":{"CommonName":"CHAR_Global_Hero_Goldy_Kiss_M","Description":"UI_TOKEN_OUTFIT_HERO_GOLDY_KISS_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_goldy_kiss.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_GOLDY_KISS_NAME","TokenID":"TOKEN_OUTFIT_HERO_GOLDY_KISS","Category":""}}
+{
+	"9485ba17-4f41-4ce9-a6ee-78ed21359875": {
+		"CommonName": "CHAR_Global_Hero_Goldy_Kiss_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_GOLDY_KISS_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_goldy_kiss.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_GOLDY_KISS_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_GOLDY_KISS",
+		"Category": ""
+	}
+}

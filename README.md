@@ -6,4 +6,4 @@ A Providence Herald's Suit for 47
 
 ---
 
-`Edgar.Heralds` v1.1.0, by Edgar. This README was automatically generated from the mod's manifest.
+`Edgar.Heralds` v1.2.0, by Edgar. This README was automatically generated from the mod's manifest.

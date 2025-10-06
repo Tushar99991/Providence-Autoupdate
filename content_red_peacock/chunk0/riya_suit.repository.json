@@ -1,1 +1,13 @@
-{"0f50e94f-982e-4731-a6bd-e21990c5ea6a":{"CommonName":"CHAR_Global_Hero_Riya_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_RIYA_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_riya.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_RIYA_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_RIYA_SUIT","Category":""}}
+{
+	"0f50e94f-982e-4731-a6bd-e21990c5ea6a": {
+		"CommonName": "CHAR_Global_Hero_Riya_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_RIYA_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_riya.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_RIYA_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_RIYA_SUIT",
+		"Category": ""
+	}
+}

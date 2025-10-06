@@ -1,1 +1,24 @@
-{"TOKEN_OUTFIT_HERO_JAY_SUIT":{"Guid":"7845bf97-e770-41e5-806e-a67748db8657","Type":"disguise","Subtype":"casual","ImageId":"","RMTPrice":-1,"GamePrice":-1,"IsPurchasable":false,"IsPublished":true,"IsDroppable":false,"Capabilities":[],"Qualities":{},"Properties":{"Quality":4,"Rarity":"common","LoadoutSlot":"disguise","IsConsumable":false,"RepositoryId":"eb9e049e-93d9-4e7c-bcb1-bf623ba3d4b3","OrderIndex":21},"Rarity":"common"}}
+{
+	"TOKEN_OUTFIT_HERO_JAY_SUIT": {
+		"Guid": "7845bf97-e770-41e5-806e-a67748db8657",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "eb9e049e-93d9-4e7c-bcb1-bf623ba3d4b3",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

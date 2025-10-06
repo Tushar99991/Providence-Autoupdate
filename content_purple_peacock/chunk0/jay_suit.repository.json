@@ -1,1 +1,13 @@
-{"eb9e049e-93d9-4e7c-bcb1-bf623ba3d4b3":{"CommonName":"CHAR_Global_Hero_Jay_Suit_M","Description":"UI_TOKEN_OUTFIT_HERO_JAY_SUIT_DESC","HeroDisguiseAvailable":true,"Image":"images/unlockables_override/47_outfits_jay.jpg","ImageTransparent":"","IsHitmanSuit":true,"Name":"UI_TOKEN_OUTFIT_HERO_JAY_SUIT_NAME","TokenID":"TOKEN_OUTFIT_HERO_JAY_SUIT","Category":""}}
+{
+	"eb9e049e-93d9-4e7c-bcb1-bf623ba3d4b3": {
+		"CommonName": "CHAR_Global_Hero_Jay_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_JAY_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_jay.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_JAY_SUIT_NAME",
+		"TokenID": "TOKEN_OUTFIT_HERO_JAY_SUIT",
+		"Category": ""
+	}
+}

@@ -30,11 +30,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"22ffbe6964f8aeb5",
-						"f98f29170d08608a",
-						"ad4dedd3a67d6e3a"
-					],
+					"value": ["22ffbe6964f8aeb5", "f98f29170d08608a", "ad4dedd3a67d6e3a"],
 					"postInit": true
 				}
 			}
