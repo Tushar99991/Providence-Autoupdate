@@ -3,11 +3,9 @@
 	"id": "Edgar.Heralds",
 	"name": "Providence 47",
 	"description": "A Providence Herald's Suit for 47",
-	"authors": [
-		"Edgar"
-	],
+	"authors": ["Edgar"],
 	"frameworkVersion": "2.33.31",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"options": [
 		{
 			"group": "Replace & Peacock Addon",
@@ -15,12 +13,8 @@
 			"type": "select",
 			"tooltip": "Replaces your Signature Suit and Gloves with the Default majestic Providence Herald's Suit.",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content"
-			],
-			"blobsFolders": [
-				"blobs"
-			],
+			"contentFolders": ["content"],
+			"blobsFolders": ["blobs"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -36,12 +30,8 @@
 			"type": "select",
 			"tooltip": "Replaces your Signature Suit & Gloves with the Golden Variant of Providence Herald's Suit.",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"content_gold"
-			],
-			"blobsFolders": [
-				"blobs_gold"
-			],
+			"contentFolders": ["content_gold"],
+			"blobsFolders": ["blobs_gold"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -57,12 +47,8 @@
 			"type": "select",
 			"tooltip": "Replaces your Signature Suit & Gloves with the Purple Variant of Providence Herald's Suit.",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"content_purple"
-			],
-			"blobsFolders": [
-				"blobs_purple"
-			],
+			"contentFolders": ["content_purple"],
+			"blobsFolders": ["blobs_purple"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -78,12 +64,8 @@
 			"type": "select",
 			"tooltip": "Replaces your Signature Suit & Gloves with the Red Variant of Providence Herald's Suit.",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"content_red"
-			],
-			"blobsFolders": [
-				"blobs_red"
-			],
+			"contentFolders": ["content_red"],
+			"blobsFolders": ["blobs_red"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -99,12 +81,8 @@
 			"type": "select",
 			"tooltip": "Replaces your Signature Suit & Gloves with the Silver Variant of Providence Herald's Suit.",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"content_silver"
-			],
-			"blobsFolders": [
-				"blobs_silver"
-			],
+			"contentFolders": ["content_silver"],
+			"blobsFolders": ["blobs_silver"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -120,12 +98,8 @@
 			"type": "checkbox",
 			"tooltip": "Install the default providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content_peacock"
-			],
-			"blobsFolders": [
-				"blobs_peacock"
-			],
+			"contentFolders": ["content_peacock"],
+			"blobsFolders": ["blobs_peacock"],
 			"localisedLines": {
 				"002FC4CAE08588AE": "UI_TOKEN_OUTFIT_HERO_JAKE_KIM_NAME",
 				"0011A2E305647FE1": "UI_TOKEN_OUTFIT_HERO_JAKE_KIM_DESC"
@@ -143,12 +117,8 @@
 			"type": "checkbox",
 			"tooltip": "Install the golden variant of McDonald Suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content_gold_peacock"
-			],
-			"blobsFolders": [
-				"blobs_gold_peacock"
-			],
+			"contentFolders": ["content_gold_peacock"],
+			"blobsFolders": ["blobs_gold_peacock"],
 			"localisedLines": {
 				"00867801727C791E": "UI_TOKEN_OUTFIT_HERO_GOLDY_KISS_NAME",
 				"00AD11F312A1930B": "UI_TOKEN_OUTFIT_HERO_GOLDY_KISS_DESC"
@@ -166,12 +136,8 @@
 			"type": "checkbox",
 			"tooltip": "Install the purple variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content_purple_peacock"
-			],
-			"blobsFolders": [
-				"blobs_purple_peacock"
-			],
+			"contentFolders": ["content_purple_peacock"],
+			"blobsFolders": ["blobs_purple_peacock"],
 			"localisedLines": {
 				"00EAF644E78DC525": "UI_TOKEN_OUTFIT_HERO_JAY_SUIT_NAME",
 				"00E4E9562F7D4DB2": "UI_TOKEN_OUTFIT_HERO_JAY_SUIT_DESC"
@@ -189,12 +155,8 @@
 			"type": "checkbox",
 			"tooltip": "Install the red variant of McDonald Suit  as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content_red_peacock"
-			],
-			"blobsFolders": [
-				"blobs_red_peacock"
-			],
+			"contentFolders": ["content_red_peacock"],
+			"blobsFolders": ["blobs_red_peacock"],
 			"localisedLines": {
 				"00410FC1ACC8B781": "UI_TOKEN_OUTFIT_HERO_RIYA_SUIT_NAME",
 				"00EF1BA2A8ADBD5E": "UI_TOKEN_OUTFIT_HERO_RIYA_SUIT_DESC"
@@ -212,12 +174,8 @@
 			"type": "checkbox",
 			"tooltip": "Install the silver variant of providence suit as a Peacock/offline addon (does not replace existing suits). Works when playing offline or with Peacock.",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content_silver_peacock"
-			],
-			"blobsFolders": [
-				"blobs_silver_peacock"
-			],
+			"contentFolders": ["content_silver_peacock"],
+			"blobsFolders": ["blobs_silver_peacock"],
 			"localisedLines": {
 				"0075ADDAED90A2A8": "UI_TOKEN_OUTFIT_HERO_NEHA_SUIT_NAME",
 				"00F017FBDCD7A30E": "UI_TOKEN_OUTFIT_HERO_NEHA_SUIT_DESC"
