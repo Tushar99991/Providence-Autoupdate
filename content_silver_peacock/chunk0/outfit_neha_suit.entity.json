@@ -199,7 +199,7 @@
 						"cafed7e96e4a1b90",
 						"cafed9a8cad85efd",
 						"cafe33a607b097b9",
-						"cafebe914c01c26a",
+						"cafee74f6284ecf7",
 						"cafe64797cd38ea4",
 						"cafee19ac49593f4",
 						"cafe11a3938b7888",
@@ -326,7 +326,7 @@
 				"Texture2D_01": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/gatekeeper/textures/male_reg_the_constant_01_suit_jacket_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"resource": "0049B035F1FBA2BD",
 						"flag": "5F"
 					}
 				},
@@ -379,7 +379,12 @@
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": ["cafee4bacb7a5065", "cafea59ecdc34dd3", "cafe9d27c81ec500", "cafefc36f348be31"]
+					"T": [
+						"cafee4bacb7a5065",
+						"cafea59ecdc34dd3",
+						"cafe9d27c81ec500",
+						"cafefc36f348be31"
+					]
 				}
 			}
 		},
@@ -400,6 +405,7 @@
 						"ffb162c5b159ac62",
 						"df28b22e2ba1029b",
 						"cafed7e96e4a1b90",
+						"cafee74f6284ecf7",
 						"cafed9a8cad85efd",
 						"cafe33a607b097b9",
 						"cafebe914c01c26a",
@@ -423,6 +429,7 @@
 					"ConstantVector1D_06_Value": [
 						"ca9e86cfdaed4c16",
 						"ffb162c5b159ac62",
+						"cafee74f6284ecf7",
 						"df28b22e2ba1029b",
 						"cafed7e96e4a1b90",
 						"cafed9a8cad85efd",
@@ -465,6 +472,7 @@
 						"ca9e86cfdaed4c16",
 						"ffb162c5b159ac62",
 						"df28b22e2ba1029b",
+						"cafee74f6284ecf7",
 						"cafed7e96e4a1b90",
 						"cafed9a8cad85efd",
 						"cafe33a607b097b9",
@@ -472,6 +480,40 @@
 						"cafe64797cd38ea4",
 						"cafee19ac49593f4"
 					]
+				}
+			}
+		},
+		"cafee74f6284ecf7": {
+			"parent": "22ea5f8267450642",
+			"name": "Pants_Dress_Loose",
+			"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_dress_loose.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_reg_apparel_legs.template?/pants_dress_loose.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#A8A9AD"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FAEA7CFE0900EA",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 0.6100000143051147
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/greenland/yachtcrew/textures/male_yacthcrew_01_trousers_01.texture?/specular_stripe.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
 				}
 			}
 		}
